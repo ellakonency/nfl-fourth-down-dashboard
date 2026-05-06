@@ -91,7 +91,7 @@ def make_recommendation(margin):
 @st.cache_data
 def load_data():
     # nflreadpy returns a Polars DataFrame, so convert to pandas
-    df = nfl.load_pbp([2021, 2022, 2023, 2024, 2025]).to_pandas()
+    df = nfl.load_pbp([2023, 2024, 2025]).to_pandas()
 
     fourth_down = df[df["down"] == 4].copy()
 
