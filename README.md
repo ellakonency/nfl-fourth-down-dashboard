@@ -1,5 +1,3 @@
-# README.md
-
 # NFL Fourth Down Decision Dashboard
 
 An interactive NFL analytics dashboard that models fourth-down decision making using expected points added (EPA), conversion probability, and historical play-by-play data.
