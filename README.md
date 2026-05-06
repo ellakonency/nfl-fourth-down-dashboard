@@ -1,9 +1,3 @@
-# Repo Description
-
-NFL fourth-down decision analytics dashboard built with Streamlit, Plotly, and nflreadpy. Features a true Go vs Punt vs Field Goal EPA decision model, expected conversion probability modeling, EPA over expected analysis, team comparison tools, and interactive fourth-down strategy visualizations using NFL play-by-play data from 2021–2025.
-
----
-
 # README.md
 
 # NFL Fourth Down Decision Dashboard
@@ -208,10 +202,3 @@ This project separates:
 into independent EPA models.
 
 This avoids the common mistake of calculating conversion rates using all fourth downs, which artificially depresses expected conversion probabilities.
-
----
-
-## License
-
-MIT License
-
