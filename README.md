@@ -123,8 +123,6 @@ NFL play-by-play data is loaded using:
 
 Seasons included:
 
-- 2021
-- 2022
 - 2023
 - 2024
 - 2025
