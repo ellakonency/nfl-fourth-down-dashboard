@@ -9,7 +9,7 @@ Built with:
 - nflreadpy
 
 The dashboard evaluates:
-- Go for it
+- Go for it (run/pass)
 - Punt
 - Field goal
 
@@ -21,7 +21,7 @@ using a true EPA-based decision framework.
 
 ### True Fourth-Down Decision Model
 
-Instead of simply comparing “go” vs “don’t go,” this dashboard estimates:
+Instead of simply comparing “go” vs. “don’t go,” this dashboard estimates:
 
 - Expected EPA from going for it
 - Expected EPA from punting
@@ -49,8 +49,8 @@ Measure how teams perform relative to expectation.
 
 Metrics include:
 
-- Conversion Over Expected (COE)
-- EPA Over Expected (EPAOE)
+- Conversion Over Expected
+- EPA Over Expected
 - Expected conversion value
 - Decision edge
 
@@ -62,8 +62,8 @@ Includes:
 
 - Go/Punt/FG EPA comparison charts
 - Team comparison mode
-- Conversion rate vs expected conversion rate
-- EPA over expected by field position
+- Conversion rate vs. expected conversion rate
+- EPA over expected by distance and field position
 - Fourth-down decision maps
 - Recommendation mix by situation
 
@@ -148,7 +148,7 @@ Seasons included:
 ## Project Structure
 
 ```text
-fourth-down-dashboard/
+nfl-fourth-down-dashboard/
 ├── dashboard.py
 ├── requirements.txt
 └── README.md
@@ -156,19 +156,9 @@ fourth-down-dashboard/
 
 ---
 
-## Streamlit Cloud Deployment
+## Streamlit Cloud App
 
-1. Push repository to GitHub
-2. Go to Streamlit Community Cloud
-3. Create a new app
-4. Select your repository
-5. Set:
-
-```text
-Main file path: dashboard.py
-```
-
-6. Deploy
+<https://nfl-fourth-down-dashboard.streamlit.app>
 
 ---
 
