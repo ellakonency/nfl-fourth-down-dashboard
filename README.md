@@ -84,8 +84,8 @@ Includes:
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/fourth-down-dashboard.git
-cd fourth-down-dashboard
+git clone https://github.com/YOUR_USERNAME/nfl-fourth-down-dashboard.git
+cd nfl-fourth-down-dashboard
 ```
 
 Install dependencies:
