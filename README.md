@@ -17,6 +17,12 @@ using a true EPA-based decision framework.
 
 ---
 
+## Streamlit Cloud App
+
+<https://nfl-fourth-down-dashboard.streamlit.app>
+
+---
+
 ## Features
 
 ### True Fourth-Down Decision Model
@@ -156,12 +162,6 @@ nfl-fourth-down-dashboard/
 
 ---
 
-## Streamlit Cloud App
-
-<https://nfl-fourth-down-dashboard.streamlit.app>
-
----
-
 ## Future Improvements
 
 Potential upgrades:
@@ -187,4 +187,4 @@ This project separates:
 
 into independent EPA models.
 
-This avoids the common mistake of calculating conversion rates using all fourth downs, which artificially depresses expected conversion probabilities.
+This avoids the common mistake of calculating conversion rates based on all fourth-down attempts, which artificially depresses expected conversion probabilities.
