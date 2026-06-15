@@ -437,7 +437,7 @@ filtered_go = filtered[filtered["is_go_attempt"]].copy()
 
 kpi1, kpi2, kpi3, kpi4, kpi5 = st.columns(5)
 
-kpi1.metric("Fourth-Down Attempts", len(filtered))
+kpi1.metric("Fourth-Down Plays", len(filtered))
 kpi2.metric(
     "Conversion Rate",
     f"{filtered_go['converted'].mean():.1%}" if len(filtered_go) else "N/A"
