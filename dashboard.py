@@ -581,16 +581,10 @@ fig_decision_summary = px.bar(
     }
 )
 
-fig_decision_summary.for_each_annotation(
-    lambda a: a.update(text=a.text.split("=")[-1])
-)
-
 fig_decision_summary.update_traces(
         hoverinfo="skip",
         hovertemplate=None
     )
-for a in fig_decision_summary.layout.annotations:
-    st.write(a.text)
 st.plotly_chart(fig_decision_summary, width="stretch")
 
 conversion_color_map = {
