@@ -589,6 +589,8 @@ fig_decision_summary.update_traces(
         hoverinfo="skip",
         hovertemplate=None
     )
+for a in fig_decision_summary.layout.annotations:
+    st.write(a.text)
 st.plotly_chart(fig_decision_summary, width="stretch")
 
 conversion_color_map = {
