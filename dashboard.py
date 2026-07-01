@@ -582,7 +582,7 @@ fig_decision_summary = px.bar(
 )
 
 fig_decision_summary.for_each_annotation(
-    lambda a: a.update(text=a.text.replace("field_zone=", ""))
+    lambda a: a.update(text=a.text.split("=")[-1])
 )
 
 fig_decision_summary.update_traces(
