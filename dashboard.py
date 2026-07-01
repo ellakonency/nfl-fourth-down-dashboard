@@ -577,9 +577,12 @@ fig_decision_summary = px.bar(
     labels={
         "distance_bucket": "Distance Bucket",
         "attempts": "Similar Plays",
-        "best_decision": "Recommended Decision",
-        "field_zone": "Field Zone: "
+        "best_decision": "Recommended Decision"
     }
+)
+
+fig_recommendation_mix.for_each_annotation(
+    lambda a: a.update(text=a.text.replace("field_zone=", ""))
 )
 
 fig_decision_summary.update_traces(
