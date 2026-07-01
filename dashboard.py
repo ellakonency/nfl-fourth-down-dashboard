@@ -581,7 +581,7 @@ fig_decision_summary = px.bar(
     }
 )
 
-fig_recommendation_mix.for_each_annotation(
+fig_decision_summary.for_each_annotation(
     lambda a: a.update(text=a.text.replace("field_zone=", ""))
 )
 
