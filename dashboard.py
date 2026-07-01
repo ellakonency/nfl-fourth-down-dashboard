@@ -577,7 +577,8 @@ fig_decision_summary = px.bar(
     labels={
         "distance_bucket": "Distance Bucket",
         "attempts": "Similar Plays",
-        "best_decision": "Recommended Decision"
+        "best_decision": "Recommended Decision",
+        "field_zone": "Field Zone: "
     }
 )
 
